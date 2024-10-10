@@ -32,7 +32,8 @@ class Pokemon:
             if damage < 0:
                 damage = 0
             opponent.hp -= damage
-            print(f"{self.name}使用了{skill['name']}, 对{opponent.defense}造成了{damage}点伤害!")
+            print(f"{self.name}使用了{skill['name']}, 对{opponent.name}造成了{damage}点伤害!")
+            print(f"{opponent.name}剩余生命值: {opponent.hp}")
         else:
             print("无效的技能选择!")
 
