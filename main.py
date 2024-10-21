@@ -59,6 +59,6 @@ while running:
     # 控制帧率
     clock.tick(60)
 
-# 退出Pygame
+# 退出pygame
 pygame.quit()
 sys.exit()
